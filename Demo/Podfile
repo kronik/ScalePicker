@@ -3,6 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'XLForm'
-pod 'ScalePicker'
+target "ScalePickerDemo" do
+	pod 'XLForm'
+	pod 'ScalePicker', '>= 2.5'
+end
 
