@@ -25,6 +25,7 @@ DerivedData
 #
 Pods/
 Demo/Pods/
+Demo/Podfile.lock
 ###
 ._*
 

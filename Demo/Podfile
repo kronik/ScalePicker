@@ -5,6 +5,6 @@ use_frameworks!
 
 target "ScalePickerDemo" do
 	pod 'XLForm'
-	pod 'ScalePicker', '>= 2.5'
+	pod 'ScalePicker', :path => '../ScalePicker.podspec'
 end
 
